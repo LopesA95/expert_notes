@@ -51,7 +51,7 @@ export function NewNoteCard() {
                 </span>
                 {shouldShowOnBoarding ? (
                   <p className='text-sm leading-6 text-slate-400'>
-                    Comece <button className='font-md text-lime-400 hover:underline'>gravando uma nota</button> em audio ou se preferir <button onClick={handleStartEditor} className='font-md text-lime-400 hover:underline'>utilize apenas texto</button>.
+                    Comece <button type='button' className='font-md text-lime-400 hover:underline'>gravando uma nota</button> em audio ou se preferir <button onClick={handleStartEditor} className='font-md text-lime-400 hover:underline'>utilize apenas texto</button>.
                   </p>
                 ) : (
                   <textarea
