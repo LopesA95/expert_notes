@@ -27,8 +27,6 @@ export function App() {
         <NewNoteCard />
         <NoteCard note={note} />
 
-
-
       </div>
 
     </div>
